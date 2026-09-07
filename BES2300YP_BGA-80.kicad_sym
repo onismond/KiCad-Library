@@ -1,0 +1,1521 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "BES2300YP_BGA-80"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 35.052 61.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 4 4)
+				)
+			)
+		)
+		(property "Value" "BES2300YP"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 5 5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -8.89 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -8.89 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "BES2300YP_BGA-80_0_1"
+			(rectangle
+				(start -45.72 43.18)
+				(end 45.72 -43.18)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "BES2300YP_BGA-80_1_1"
+			(pin bidirectional line
+				(at -6.35 -45.72 90)
+				(length 2.54)
+				(name "MIC1_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -45.72 90)
+				(length 2.54)
+				(name "MIC1_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -48.26 -20.32 0)
+				(length 2.54)
+				(name "GPIO_23"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -48.26 -24.13 0)
+				(length 2.54)
+				(name "GPIO_22"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -48.26 -5.08 0)
+				(length 2.54)
+				(name "VCODEC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48.26 -21.59 180)
+				(length 2.54)
+				(name "LOUT_LP"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48.26 -25.4 180)
+				(length 2.54)
+				(name "LOUT_LN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 48.26 -36.83 180)
+				(length 2.54)
+				(name "LOUT_RN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 48.26 -33.02 180)
+				(length 2.54)
+				(name "LOUT_RP"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -48.26 2.54 0)
+				(length 2.54)
+				(name "VCODEC_HPPA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 -45.72 90)
+				(length 2.54)
+				(name "MIC2_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -45.72 90)
+				(length 2.54)
+				(name "MIC4_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -48.26 -12.7 0)
+				(length 2.54)
+				(name "VMIC3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -48.26 -16.51 0)
+				(length 2.54)
+				(name "VMIC2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 45.72 270)
+				(length 2.54)
+				(name "ADC0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -25.4 45.72 270)
+				(length 2.54)
+				(name "LED2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -36.83 45.72 270)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -33.02 45.72 270)
+				(length 2.54)
+				(name "POWKEY"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -48.26 36.83 0)
+				(length 2.54)
+				(name "VCHG_R"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -48.26 -1.27 0)
+				(length 2.54)
+				(name "VMEM"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 -45.72 90)
+				(length 2.54)
+				(name "MIC2_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -45.72 90)
+				(length 2.54)
+				(name "MIC4_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -48.26 29.21 0)
+				(length 2.54)
+				(name "VBAT_SENSE"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -48.26 33.02 0)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -45.72 90)
+				(length 2.54)
+				(name "MIC3_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48.26 35.56 180)
+				(length 2.54)
+				(name "GPIO_10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -29.21 45.72 270)
+				(length 2.54)
+				(name "LED1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -48.26 6.35 0)
+				(length 2.54)
+				(name "LX3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -45.72 90)
+				(length 2.54)
+				(name "MIC3_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48.26 31.75 180)
+				(length 2.54)
+				(name "GPIO_11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 45.72 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48.26 -29.21 180)
+				(length 2.54)
+				(name "REFN_R"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 48.26 12.7 180)
+				(length 2.54)
+				(name "GPIO_20"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -48.26 17.78 0)
+				(length 2.54)
+				(name "LX2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -48.26 -8.89 0)
+				(length 2.54)
+				(name "VCM_CAP"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 48.26 27.94 180)
+				(length 2.54)
+				(name "GPIO_12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 45.72 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48.26 -17.78 180)
+				(length 2.54)
+				(name "REFN_L"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 48.26 8.89 180)
+				(length 2.54)
+				(name "GPIO_21"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 45.72 270)
+				(length 2.54)
+				(name "PGND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48.26 20.32 180)
+				(length 2.54)
+				(name "GPIO_14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 48.26 24.13 180)
+				(length 2.54)
+				(name "GPIO_13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 45.72 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -45.72 90)
+				(length 2.54)
+				(name "AVSS_GMC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -45.72 90)
+				(length 2.54)
+				(name "MIC5_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -48.26 25.4 0)
+				(length 2.54)
+				(name "LX1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 -45.72 90)
+				(length 2.54)
+				(name "XTAL_VDD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 24.13 45.72 270)
+				(length 2.54)
+				(name "GPIO_00"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 45.72 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -45.72 90)
+				(length 2.54)
+				(name "AVSS_REFN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 27.94 -45.72 90)
+				(length 2.54)
+				(name "MIC5_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -48.26 21.59 0)
+				(length 2.54)
+				(name "VCORE"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 31.75 45.72 270)
+				(length 2.54)
+				(name "GPIO_02"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.94 45.72 270)
+				(length 2.54)
+				(name "GPIO_01"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -48.26 10.16 0)
+				(length 2.54)
+				(name "VANA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -48.26 13.97 0)
+				(length 2.54)
+				(name "VANA_BUCK"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -45.72 90)
+				(length 2.54)
+				(name "XTAL_IN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 35.56 45.72 270)
+				(length 2.54)
+				(name "GPIO_03"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -21.59 -45.72 90)
+				(length 2.54)
+				(name "GPIO_26"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -48.26 -27.94 0)
+				(length 2.54)
+				(name "VIO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -13.97 -45.72 90)
+				(length 2.54)
+				(name "XTAL_OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 45.72 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -36.83 -45.72 90)
+				(length 2.54)
+				(name "VPA_BT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48.26 -10.16 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -33.02 -45.72 90)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -29.21 -45.72 90)
+				(length 2.54)
+				(name "VANA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 48.26 16.51 180)
+				(length 2.54)
+				(name "GPIO_15"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -48.26 -35.56 0)
+				(length 2.54)
+				(name "VUSB_CAP"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -48.26 -31.75 0)
+				(length 2.54)
+				(name "VUSB"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -13.97 45.72 270)
+				(length 2.54)
+				(name "USB_DN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -45.72 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 45.72 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 48.26 -13.97 180)
+				(length 2.54)
+				(name "BT_RF"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 48.26 -6.35 180)
+				(length 2.54)
+				(name "GPIO_25"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 48.26 -2.54 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 48.26 1.27 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 48.26 5.08 180)
+				(length 2.54)
+				(name "GPIO_27"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 45.72 270)
+				(length 2.54)
+				(name "UART0_RX/P16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 45.72 270)
+				(length 2.54)
+				(name "UART0_TX/P17"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 45.72 270)
+				(length 2.54)
+				(name "USB_DP"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
